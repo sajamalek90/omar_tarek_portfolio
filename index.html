@@ -1,390 +1,603 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Omar Tarek — Data Analyst Portfolio</title>
-<meta name="description" content="Omar Tarek AbdEl-Moneam — Data Analyst specializing in SQL, Power BI, Excel, Tableau and Python. Interactive dashboards and data-driven insights.">
-<meta name="theme-color" content="#000727">
-
-<!-- Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
-
-<!-- Bootstrap -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Tarek - Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90" tabindex="0">
-
-<!-- ================= NAVBAR ================= -->
-<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
-    <div class="container">
-        <a class="navbar-brand" href="#top">Omar<span>Tarek</span></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navContent">
-            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                <li class="nav-item ms-lg-2">
-                    <a class="btn btn-nav-cta" href="mailto: ">Contact Me</a>
-                </li>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">Omar Tarek</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
             </ul>
-        </div>
-    </div>
-</nav>
+        </nav>
+    </header>
 
-<!-- ================= HERO ================= -->
-<header class="hero" id="top">
-    <div class="hero-grid" aria-hidden="true"></div>
-    <div class="container">
-        <div class="row align-items-center gy-5">
-            <div class="col-lg-7" data-reveal>
-                <span class="eyebrow"><i class="bi bi-bar-chart-line-fill"></i> <!-- Job Title --> </span>
-                <h1 class="hero-title">  <!-- First name -->  <br>  <!-- Last name -->  </h1>
-                <p class="hero-lead">
-                    <!-- Summary -->
-                </p>
-                <div class="hero-cta">
-                    <a href="#projects" class="btn btn-hero-primary">View Projects <i class="bi bi-arrow-down-right"></i></a>
-                    <a href="mailto:" class="btn btn-hero-secondary">Contact Me</a>
-                </div>
-            </div>
-            <div class="col-lg-5 text-center" data-reveal data-reveal-delay="150">
-                <div class="hero-monogram">
-                    <div class="ring ring-1"></div>
-                    <div class="ring ring-2"></div>
-                    <div class="monogram-core">
-                        <img src="images/" alt="">
-                    </div>
-                </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Omar Tarek AbdEl-Moneam</h1>
+            <p class="subtitle">Data Analyst Specialist | BI Developer</p>
+            <p>Data Analyst skilled in SQL, Power BI, Excel, Tableau and Python, with hands-on experience in transforming complex data into interactive dashboards and actionable insights. Passionate about leveraging analytics to optimize business performance and support data-driven decision-making.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="mailto:omartareq186@gmail.com" class="btn btn-secondary">Contact Me</a>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- KPI Strip — signature element -->
-    <div class="container">
-        <div class="kpi-strip" data-reveal data-reveal-delay="250">
-            <div class="kpi-tile">
-                <span class="kpi-num" data-count="14">0</span><span class="kpi-plus">+</span>
-                <span class="kpi-label">Projects Delivered</span>
-            </div>
-            <div class="kpi-tile">
-                <span class="kpi-num" data-count="10">0</span><span class="kpi-plus">+</span>
-                <span class="kpi-label">Tools &amp; Platforms</span>
-            </div>
-            <div class="kpi-tile">
-                <span class="kpi-num" data-count="3">0</span>
-                <span class="kpi-label">Trainings &amp; Programs</span>
-            </div>
-            <div class="kpi-tile">
-                <span class="kpi-num" data-count="5">0</span>
-                <span class="kpi-label">Project Categories</span>
-            </div>
-        </div>
-    </div>
-</header>
-
-<!-- ================= ABOUT ================= -->
-<section id="about" class="section">
-    <div class="container">
-        <div class="section-heading" data-reveal>
-            <!-- <span class="section-tag">01 — About</span> -->
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
             <h2>About Me</h2>
-        </div>
-        <div class="row g-5 align-items-start">
-            <div class="col-lg-4" data-reveal>
-                <div class="contact-card">
-                    <h3><i class="bi bi-person-vcard"></i> Contact Information</h3>
-                    <ul class="contact-list">
-                        <li><i class="bi bi-geo-alt-fill"></i><div><strong>Location</strong><span>   </span></div></li>
-                        <li><i class="bi bi-telephone-fill"></i><div><strong>Mobile</strong><a href="tel:+20">    </a></div></li>
-                        <li><i class="bi bi-envelope-fill"></i><div><strong>Email</strong><a href="mailto:">    </a></div></li>
-                        <li><i class="bi bi-linkedin"></i><div><strong>LinkedIn</strong><a href="https://" target="_blank" rel="noopener">View Profile</a></div></li>
-                    </ul>
+            <div class="about-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <strong>Location:</strong> Cairo, Egypt
+                    </div>
+                    <div class="contact-item">
+                        <strong>Mobile:</strong> <a href="tel:+201094851850">(+20) 109 485 1850</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Email:</strong> <a href="mailto:omartareq186@gmail.com">omartareq186@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/omar-tarek-048b07265/" target="_blank">View Profile</a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-8" data-reveal data-reveal-delay="150">
                 <div class="about-text">
-                    <p></p>
+                    <p>I am a passionate Data Analyst, I hold my Bachelor's degree in Computer Science at Fayoum University. My journey in data analysis began with the Digital Egypt Pioneers Initiative (DEPI) training program, where I developed strong foundations in data analysis, statistics, and visualization.</p>
+                    
+                    <p>I have experience in building interactive dashboards, conducting data transformations, and delivering actionable insights. My goal is to apply data-driven strategies to solve business challenges and contribute to organizational growth through analytical excellence.</p>
+                    
+                    <p>Beyond technical skills, I bring leadership experience from my roles in student organizations, where I've led teams, managed marketing campaigns, and developed strategic initiatives. I'm seeking opportunities to further develop my analytical and leadership capabilities in a growth-focused organization.</p>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- ================= SKILLS ================= -->
-<section id="skills" class="section section-alt">
-    <div class="container">
-        <div class="section-heading" data-reveal>
-            <!-- <span class="section-tag">02 — Skills</span> -->
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
             <h2>Technical Skills</h2>
-        </div>
-        <div class="row g-4">
-            <div class="col-md-6" data-reveal>
+            <div class="skills-grid">
                 <div class="skill-category">
-                    <h3><i class="bi bi-graph-up-arrow"></i> Data Analysis &amp; Visualization</h3>
+                    <h3>Data Analysis & Visualization</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">  </span>
-                        <span class="skill-tag">  </span>
-                        <span class="skill-tag">  </span>
+                        <span class="skill-tag">SQL (Joins, CTEs, Window Functions)</span>
+                        <span class="skill-tag">Power BI (DAX, Data Modeling, RLS, Power BI Service)</span>
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">SSIS</span>
+                        <span class="skill-tag">SSRS</span>
+                        <span class="skill-tag">SSAS</span>
+                        <span class="skill-tag">Data Cleaning</span>
+                        <span class="skill-tag">Data Warehouse</span>
+                        <span class="skill-tag">Statistical Analysis</span>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6" data-reveal data-reveal-delay="100">
                 <div class="skill-category">
-                    <h3><i class="bi bi-code-slash"></i> Programming Languages</h3>
+                    <h3>Programming Languages</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">  </span>
-                        <span class="skill-tag">  </span>
-                        <span class="skill-tag">  </span>
+                        <span class="skill-tag">Python (Numpy - Pandas - Seaborn - Matplotlib)</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Java</span>
                     </div>
                 </div>
+                <!-- <div class="skill-category">
+                    <h3>Personal Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Analytical Thinking</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Presentation</span>
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Research</span>
+                    </div>
+                </div> -->
             </div>
-        </div>
+        </div>    
 
-        <div class="section-heading mt-5 pt-3" data-reveal>
-            <!-- <span class="section-tag">03 — Skills</span> -->
+        <div class="container">    
             <h2>Personal Skills</h2>
-        </div>
-        <div class="row g-4">
-            <div class="col-12" data-reveal>
+            <div class="skills-grid">
                 <div class="skill-category">
-                    <h3><i class="bi bi-people-fill"></i> Soft Skills</h3>
+                    <h3>Soft Skills</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">  </span>
-                        <span class="skill-tag">  </span>
-                        <span class="skill-tag">  </span>
+                        <span class="skill-tag">Analytical Thinking</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Presentation</span>
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Time Management</span>
+                        <span class="skill-tag">Active Listening</span>
+                        <span class="skill-tag">Research</span>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- ================= EXPERIENCE ================= -->
-<section id="experience" class="section">
-    <div class="container">
-        <div class="section-heading" data-reveal>
-            <!-- <span class="section-tag">04 — Journey</span> -->
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
             <h2>Experience & Leadership</h2>
-        </div>
-        <div class="timeline">
-
-            <div class="timeline-item" data-reveal>
-                <div class="timeline-dot"></div>
-                <div class="timeline-card">
-                    <div class="timeline-date">   </div>
-                    <h3>  </h3>
-                    <p>   </p>
-            </div>
-
-            <div class="timeline-item" data-reveal>
-                <div class="timeline-dot"></div>
-                <div class="timeline-card">
-                    <div class="timeline-date">  </div>
-                    <h3>  </h3>
-                    <div class="timeline-company">  </div>
-                    <p>   </p>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <h3>Data Analysis Diploma</h3>
+                    <!-- <div class="company">Enactus Fayoum University</div> -->
+                    <div class="date">Jun 2026 – Present</div>
+                    <p>Pursuing an intensive diploma in SQL, Advanced Excel, Python, and advanced Power BI (DAX, Data Modeling, RLS, Power BI Service) through hands-on business projects.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Data Analysis Skills for the Freelance Professional</h3>
+                    <div class="company">NTI</div>
+                    <div class="date">July 2025 – Aug 2025</div>
+                    <p>Completed a 120-hour professional Data Analytics training with focus on freelancing skills and a real-world project.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Vice President</h3>
+                    <div class="company">Enactus Fayoum University</div>
+                    <div class="date">Sep 2025 – May 2025</div>
+                    <p>Lead student teams on social entrepreneurship initiatives and supported strategic planning.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Head of Marketing</h3>
+                    <div class="company">Enactus Fayoum University</div>
+                    <div class="date">Feb 2024 – Sep 2025</div>
+                    <p>Oversaw digital campaigns and content creation, increasing engagement metrics.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Marketing Team Member</h3>
+                    <div class="company">IEEE Fayoum University</div>
+                    <div class="date">Nov 2024 - Mar 2025</div>
+                    <p>Collaborated on promotional initiatives and outreach strategies.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Sales Specialist</h3>
+                    <div class="company">Idriska (Flight Booking)</div>
+                    <div class="date">Jul 2023 – Nov 2024</div>
+                    <p>Handled travel bookings and provided excellent customer service via digital platforms.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Sales Specialist</h3>
+                    <div class="company">Sagda (Perfume Retail)</div>
+                    <div class="date">Jul 2022 – May 2023</div>
+                    <p>Performed front-line customer service and managed sales records.</p>
                 </div>
             </div>
-
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- ================= PROJECTS ================= -->
-<section id="projects" class="section section-alt">
-    <div class="container">
-        <div class="section-heading" data-reveal>
-            <!-- <span class="section-tag">05 — Work</span> -->
+    <!-- Projects Gallery Section -->
+    <section id="projects" class="section">
+        <div class="container">
             <h2>Projects Gallery</h2>
-        </div>
+            
+            <!-- Power BI Projects Category -->
+            <div class="project-category">
+                <h3 class="category-title">Power BI Projects</h3>
+                <div class="projects-gallery">
 
-        <!-- Filter -->
-        <div class="filter-nav" data-reveal>
-            <button class="filter-btn active" data-filter="all">All</button>
-            <button class="filter-btn" data-filter="powerbi">Power BI</button>
-            <button class="filter-btn" data-filter="sql">SQL</button>
-            <button class="filter-btn" data-filter="tableau">Tableau</button>
-            <button class="filter-btn" data-filter="excel">Excel</button>
-            <button class="filter-btn" data-filter="python">Python</button>
-        </div>
-
-        <!-- Power BI Projects Category -->
-        <div class="project-category" data-category="powerbi">
-            <h3 class="category-title"><i class="bi bi-bar-chart-fill"></i> Power BI Projects</h3>
-            <div class="row g-4">
-
-                <!-- Project: Dynamic RLS -->
-                <div class="col-lg-6" data-reveal> 
-                    <div class="project-card h-100">
-                        <div id="carouselRLS" class="carousel slide project-image" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active"><img src="images/" alt=""></div>
-                                <div class="carousel-item"><img src="images/" alt=""></div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselRLS" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselRLS" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+                    <!-- Project 2: Dynamic Row-Level Security (RLS) in Power BI -->
+                    <div class="project-card">
+                        <div class="project-image second">
+                            <img src="images/Dashboard 14.jpeg" alt="Dynamic Row-Level Security (RLS) in Power BI">
+                            <img src="images/Dashboard 14.1.jpeg" alt="Dynamic Row-Level Security (RLS) in Power BI">
                         </div>
                         <div class="project-content">
-                            <span class="project-badge">  </span>
-                            <h3>  </h3>
-                            <p class="project-description">  </p>
+                            <h3>Dynamic Row-Level Security (RLS) in Power BI</h3>
+                            <p class="project-description">
+                                This project demonstrates the implementation of Dynamic Row-Level Security (RLS) in Power BI to control data access based on the logged-in user's email.
+                                The solution is built on a structured Semantic Model that connects the INFO Sec security table with the dim_Product and fact_InternetSales tables. The security table stores each employee's email and assigned product subcategory, while the relationships allow the security filter to propagate through the model and restrict the underlying sales data.
+                                The RLS logic uses DAX and USERPRINCIPALNAME() to dynamically identify the logged-in user and retrieve their assigned subcategory. The Semantic Model was published to Power BI Service, where the RLS role was configured and validated using Test as Role.
+                            </p>
                             <div class="project-insights">
-                                <h4><i class="bi bi-lightbulb-fill"></i> Key Insights</h4>
-                                <ul>
-                                    <li>  </li>
-                                    <li>  </li>
-                                    <li>  </li>
-                                </ul>
+                                <h4>Key Insights:</h4>
+                                <p>. Semantic Model: Designed relationships between the security, product, and sales tables to enable dynamic filter propagation. </p><br>
+                                <p>. Dynamic User Filtering: Identifies the logged-in user using USERPRINCIPALNAME(). </p><br>
+                                <p>. Subcategory-Level Security: Each employee can only access products within their assigned subcategory. </p><br>
+                                <p>. Centralized Security Table: Employee permissions are managed through the INFO Sec table. </p><br>
+                                <p>. Power BI Service: Published the Semantic Model and configured the RLS role in the Service.</p><br>
+                                <p>. Security Validation: Tested the role using Test as Role to verify that users only see authorized data. </p><br>
                             </div>
-                            <a class="repo-link" href="https://github.com/" target="_blank" rel="noopener"><i class="bi bi-github"></i>  </a>
+                            <div class="integration-highlight">
+                                <h4>Repository Link:</h4>
+                                <p><a href="https://github.com/OmarTarek186/Semantic-Model-RLS.git" target="_blank">Dynamic Row-Level Security (RLS) in Power BI</a></p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-            </div>
-        </div>
-
-        <!-- SQL Projects Category -->
-        <div class="project-category" data-category="sql">
-            <h3 class="category-title"><i class="bi bi-database-fill"></i> SQL Projects</h3>
-            <div class="row g-4">
-
-                <div class="col-lg-6" data-reveal>
-                    <div class="project-card h-100">
-                        <div id="carouselSalesSQL" class="carousel slide project-image" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active"><img src="images/" alt=""></div>
-                                <div class="carousel-item"><img src="images/" alt=""></div>
-                                <div class="carousel-item"><img src="images/" alt=""></div>
-                                <div class="carousel-item"><img src="images/" alt=""></div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSalesSQL" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselSalesSQL" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+                    <!-- Project 1: Galaxy Schema & Dynamic Row-Level Security (RLS) -->
+                    <div class="project-card">
+                        <div class="project-image second">
+                            <img src="images/Dashboard 13.jpeg" alt="Galaxy Schema & Dynamic Row-Level Security (RLS)">
+                            <img src="images/Dashboard 13.1.jpeg" alt="Galaxy Schema & Dynamic Row-Level Security (RLS)">
                         </div>
                         <div class="project-content">
-                            <span class="project-badge">SQL</span>
-                            <h3>   </h3>
-                            <p class="project-description">  </p>
-                            <a class="repo-link" href="https://github.com/" target="_blank" rel="noopener"><i class="bi bi-github"></i> </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Tableau Projects Category -->
-        <div class="project-category" data-category="tableau">
-            <h3 class="category-title"><i class="bi bi-clipboard-data-fill"></i> Tableau Projects</h3>
-            <div class="row g-4">
-                <div class="col-lg-6" data-reveal>
-                    <div class="project-card h-100">
-                        <div class="project-image"><img src="images/" alt=""></div>
-                        <div class="project-content">
-                            <span class="project-badge">Tableau</span>
-                            <h3> </h3>
-                            <p class="project-description">  </p>
+                            <h3>Galaxy Schema & Dynamic Row-Level Security (RLS)</h3>
+                            <p class="project-description">
+                                This project focuses on building a scalable Power BI data model using a Galaxy Schema (Fact Constellation) and implementing Dynamic Row-Level Security (RLS) to ensure secure and user-specific data access.
+                                The model integrates multiple business processes, including Sales, Orders, Inventory, Campaigns, and Sales Targets, connected through shared Dimension tables.
+                                The project also focuses on optimizing the data model and DAX calculations to improve report performance and ensure accurate data analysis.
+                            </p>
                             <div class="project-insights">
-                                <h4><i class="bi bi-lightbulb-fill"></i> Key Insights</h4>
-                                <ul>
-                                    <li>  </li>
-                                    <li>  </li>
-                                    <li>  </li>
-                                </ul>
+                                <h4>Key Insights:</h4>
+                                <p>. Galaxy Schema: Designed a Fact Constellation model with multiple Fact tables connected through shared Dimensions. </p><br>
+                                <p>. Data Modeling: Built relationships between Fact and Dimension tables to ensure accurate filtering and analysis. </p><br>
+                                <p>. Performance Optimization: Used Performance Analyzer to evaluate report performance, with visuals rendering in approximately 45–87 ms. </p><br>
+                                <p>. DAX Optimization: Developed and optimized DAX measures to support analytical requirements and improve report efficiency. </p><br>
+                                <p>. Dynamic Row-Level Security (RLS):
+                                    Created a Security table containing user emails and their authorized regions, then implemented Dynamic RLS to ensure each user only has access to the data assigned to them. </p><br>
+                                <p>. RLS Validation: Tested the security implementation using View As to verify that users only see their authorized data. </p><br>
+                                <p>. Power BI Service: Published the report and configured the RLS role on Power BI Service to validate the security implementation in the cloud environment.</p><br>
+                            </div>
+                            <div class="integration-highlight">
+                                <h4>Repository Link:</h4>
+                                <p><a href="https://github.com/OmarTarek186/Data-Modeling.git" target="_blank">Galaxy Schema & Dynamic Row-Level Security (RLS)</a></p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- Excel Projects Category -->
-        <div class="project-category" data-category="excel">
-            <h3 class="category-title"><i class="bi bi-file-earmark-spreadsheet-fill"></i> Excel Projects</h3>
-            <div class="row g-4">
-
-                <div class="col-lg-6" data-reveal>
-                    <div class="project-card h-100">
-                        <div class="project-image"><img src="images/" alt=""></div>
+                    <!-- Project 2: Graduation Project Dashboard -->
+                    <div class="project-card">
+                        <div class="project-image quadro">
+                            <img src="images/Dashboard 7.jpg" alt="Graduation Project Dashboard">
+                            <img src="images/Dashboard 7.1.jpg" alt="Graduation Project Dashboard">
+                            <img src="images/Dashboard 7.2.jpg" alt="Graduation Project Dashboard">
+                            <img src="images/Dashboard 7.3.jpg" alt="Graduation Project Dashboard">
+                        </div>
                         <div class="project-content">
-                            <span class="project-badge">Excel</span>
-                            <h3> </h3>
-                            <p class="project-description">  </p>
+                            <h3>Expert System of Student Affairs Management (Graduation Project)</h3>
+                            <p class="project-description">
+                                The University Student Affairs Dashboard is an integrated data visualization system designed to support administrative, academic, and student performance monitoring at Fayoum University – Faculty of Science.
+                                The system provides a centralized interface that displays key academic metrics such as course registration statistics, student grades, attendance records, department performance, and faculty workload distribution.
+                                It enhances decision-making by offering real-time, interactive reports that summarize student progress, course outcomes, and departmental efficiency.
+                            </p>
                             <div class="project-insights">
-                                <h4><i class="bi bi-lightbulb-fill"></i> Key Insights</h4>
-                                <p>  </p>
+                                <h4>Key Insights:</h4>
+                                <p>
+                                    Comprehensive Student Tracking: Enables real-time monitoring of student academic progress, GPA, attendance, and registration history.
+                                    Faculty and Course Analytics: Displays data on course enrollments, teaching hours, and faculty participation across semesters.
+                                    Performance Visualization: Interactive charts and dashboards help identify trends in student success rates, course completion, and absenteeism.
+                                    Decision Support: Provides actionable insights for academic advisors and administrators to improve student outcomes and optimize resource allocation.
+                                    User Roles: Supports multiple access levels (e.g., student, instructor, department head, system administrator) for data privacy and role-based reporting.
+                                </p>
                             </div>
-                            <a class="repo-link" href="https://github.com/" target="_blank" rel="noopener"><i class="bi bi-github"></i> </a>
+                            <div class="integration-highlight">
+                                <h4>Dashboard Integration:</h4>
+                                <p>
+                                    Database Integration: Connected to the university’s academic database to automatically retrieve student records, grades, and schedules.
+                                    Microsoft Authentication: Uses Microsoft university accounts for secure login and role-based access.
+                                    Data Visualization Tools: Built using modern dashboard technologies (e.g., Power BI or web-based chart libraries) for dynamic data representation.
+                                    Modular System Design: Seamlessly integrates modules for student management, faculty management, course registration, and performance reports.
+                                    Cross-Platform Accessibility: Designed for accessibility on both desktop and web, ensuring ease of use for staff and students alike.
+                                </p>
+                            </div>
+                            <div class="integration-highlight">
+                                <h4>Repository Link:</h4>
+                                <p><a href="https://github.com/OmarTarek186/Student-Analysis-Using-Power-BI.git" target="_blank">Expert System of Student Affairs Management</a></p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-            </div>
-        </div>
-
-        <!-- Python Projects Category -->
-        <div class="project-category" data-category="python">
-            <h3 class="category-title"><i class="bi bi-filetype-py"></i> Python Projects</h3>
-            <div class="row g-4">
-
-                <div class="col-lg-6" data-reveal>
-                    <div class="project-card h-100">
-                        <div class="project-image"><img src="images/" alt=""></div>
+                    <!-- Project 3: Smoking Health Risk Analysis -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Dashboard 12.jpeg" alt="Smoking Health Risk Analysis">
+                        </div>
                         <div class="project-content">
-                            <span class="project-badge">Python</span>
-                            <h3> </h3>
-                            <p class="project-description">  </p>
+                            <h3>Smoking Health Risk Analysis</h3>
+                            <p class="project-description">
+                                This project aims to analyze patient health data and identify the impact of lifestyle habits and medical risk factors on overall organ health.
+                                The dataset includes patient demographics, smoking and alcohol consumption habits, blood pressure risk levels, BMI, cholesterol levels, and organ health conditions.
+                                Using Power BI, the data was modeled and visualized to provide an interactive and user-friendly dashboard that supports data-driven health analysis.
+                            </p>
                             <div class="project-insights">
-                                <h4><i class="bi bi-lightbulb-fill"></i> Key Insights</h4>
-                                <ul>
-                                    <li>  </li>
-                                    <li>  </li>
-                                    <li>  </li>
-                                </ul>
+                                <h4>Key Insights:</h4>
+                                <p>A noticeable increase in organ damage rates among patients with high blood pressure risk
+                                    Smoking and high alcohol consumption show a strong correlation with damaged organ conditions,
+                                    Patients with higher BMI levels tend to have increased health risks,
+                                    Organ-level filtering reveals that risk factors impact organs differently, highlighting the importance of targeted analysis rather than general averages,
+                                    The Health Balance KPI provides a quick snapshot of whether healthy cases outweigh damaged cases under different conditions
+                                </p>
                             </div>
-                            <a class="repo-link" href="https://github.com/" target="_blank" rel="noopener"><i class="bi bi-github"></i> </a>
+                            <div class="integration-highlight">
+                                <h4>Repository Link:</h4>
+                                <p><a href="https://github.com/OmarTarek186/Smoking-Health-Risk-Analysis-Using-Power-BI.git" target="_blank">Smoking Health Risk Analysis</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 4: Telco Customer Churn -->
+                    <div class="project-card">
+                        <div class="project-image quadro">
+                            <img src="images/Dashboard 5.jpg" alt="Telco Customer Churn Dashboard">
+                            <img src="images/Dashboard 5.1.jpg" alt="Telco Customer Churn Dashboard">
+                            <img src="images/Dashboard 5.2.jpg" alt="Telco Customer Churn Dashboard">
+                            <img src="images/Dashboard 5.3.jpg" alt="Telco Customer Churn Dashboard">
+                        </div>
+                        <div class="project-content">
+                            <h3>Telco Customer Churn Dashboard</h3>
+                            <p class="project-description">
+                                Comprehensive Power BI dashboard designed to analyze customer churn patterns for a telecommunications company. The report consolidates data on customer demographics, contract types, payment methods, and service usage to uncover key factors influencing churn. It provides business users with real-time insights into customer retention trends, high-risk segments, and revenue impact, empowering data-driven decision-making to improve customer loyalty and reduce attrition.
+                            </p>
+                            <div class="project-insights" style="margin-top: 70px;">
+                                <h4>Key Insights:</h4>
+                                <p>
+                                    Overall churn rate analyzed across multiple customer segments, highlighting the impact of contract duration and payment methods. 
+                                    Identified high churn rates among month-to-month contracts and customers using electronic check payments. 
+                                    Discovered that customers with fiber optic internet services exhibit the highest churn tendency. 
+                                    Visualized demographic patterns showing senior citizens and single-service users as key at-risk groups. 
+                                    Provided actionable insights for retention strategies, including targeted offers and loyalty programs.
+                                </p>
+                            </div>
+                            <div class="integration-highlight">
+                                <h4>Repository Link:</h4>
+                                <p><a href="https://github.com/OmarTarek186/Customer-Churn-Using-Power-BI.git" target="_blank">Telco Customer Churn Dashboard</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: Physics Lab Management System 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Dashboard 1.jpg" alt="Physics Lab Management System Dashboard-1">
+                        </div>
+                        <div class="project-content">
+                            <h3>Physics Lab Management System 1</h3>
+                            <p class="project-description">
+                                Comprehensive Physics Laboratory Operations Dashboard built with Power BI for Faculty of Science laboratory management. This advanced system monitors lab utilization rates, tracks operational costs, manages equipment across 12 laboratories, and provides detailed analytics on lab performance, maintenance schedules, and resource allocation. The dashboard enables supervisors to optimize lab efficiency and make data-driven decisions for equipment management.
+                            </p>
+                            <div class="project-insights">
+                                <h4>Key Insights:</h4>
+                                <p>Achieved 67% laboratory utilization rate across 12 labs with 48.20K total operational costs and 5-day average maintenance cycle. Optimized equipment distribution from 14 to 8 devices per lab through strategic resource allocation, maintained detailed tracking of lab sessions with peak usage in Research Labs 5 and 7 (1.5K+ sessions each), and implemented comprehensive maintenance scheduling resulting in improved equipment availability and operational efficiency.</p>
+                            </div>
+                            <div class="integration-highlight">
+                                <h4>Dashboard Integration:</h4>
+                                <p>Published to Power BI Service with row-level security implementation and embedded into the university portal via responsive iframe integration, enabling role-based access for different user groups including lab supervisors, department heads, and maintenance staff.</p>
+                            </div>
+                            <div class="integration-highlight">
+                                <h4>Repository Link:</h4>
+                                <p><a href="https://github.com/OmarTarek186/Physics-Lab-Analysis-Using-Power-BI.git" target="_blank">Physics Lab Management System</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6: Physics Lab Management System 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Dashboard 2.jpg" alt="Physics Lab Management System Dashboard-2">
+                        </div>
+                        <div class="project-content">
+                            <h3>Physics Lab Management System 2</h3>
+                            <p class="project-description">
+                                Advanced Physics Laboratory Management Dashboard developed using Power BI for the Faculty of Science Physics Department. This comprehensive system tracks equipment reservations, monitors device status across multiple labs, analyzes usage patterns, and manages maintenance schedules. The dashboard provides real-time insights into lab utilization, equipment health, and operational efficiency for laboratory supervisors and department administrators.
+                            </p>
+                            <div class="project-insights">
+                                <h4>Key Insights:</h4>
+                                <p>Managed 19.13K total maintenance costs across 113 devices serving 204 users, achieved optimal equipment distribution with 60% available devices and strategic maintenance scheduling. Identified seasonal usage patterns with peak activity in September-October, maintained comprehensive equipment tracking across 4 laboratory locations, and streamlined reservation system resulting in improved lab accessibility.</p>
+                            </div>
+                            <div class="integration-highlight">
+                                <h4>Dashboard Integration:</h4>
+                                <p>Successfully published to Power BI Service with automated data refresh schedules and integrated into the faculty website using secure iframe embedding with mobile-responsive design, ensuring optimal viewing experience across all devices and providing 24/7 access to lab management insights.</p>
+                            </div>
+                            <div class="integration-highlight">
+                                <h4>Repository Link:</h4>
+                                <p><a href="https://github.com/OmarTarek186/Physics-Lab-Analysis-Using-Power-BI.git" target="_blank">Physics Lab Management System</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- SQL Projects Category -->
+            <div class="project-category">
+                <h3 class="category-title">SQL Projects</h3>
+                <div class="projects-gallery">
+
+                    <!-- Project 1: Sales Analysis -->
+                    <div class="project-card">
+                        <div class="project-image quadro">
+                            <img src="images/Dashboard 10.jpeg" alt="Sales Analysis">
+                            <img src="images/Dashboard 10.1.jpeg" alt="Sales Analysis">
+                            <img src="images/Dashboard 10.2.jpeg" alt="Sales Analysis">
+                            <img src="images/Dashboard 10.3.jpeg" alt="Sales Analysis">
+                        </div>
+                        <div class="project-content">
+                            <h3>Sales Analysis</h3>
+                            <p class="project-description">
+                                The Sales Analysis Project is reinforced one key lesson: the most effective analysis isn’t about having more charts,but about delivering the right insight at the right time.
+                            </p>
+                            <div class="integration-highlight">
+                                <h4>Repository Link:</h4>
+                                <p><a href="https://github.com/OmarTarek186/Sales-Analysis-Using-SQL.git" target="_blank">Sales Analysis</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Project 2: SQL Tasks -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Dashboard 11.jpeg" alt="SQL Tasks">
+                        </div>
+                        <div class="project-content">
+                            <h3>SQL Tasks</h3>
+                            <div class="integration-highlight">
+                                <h4>Repository Link:</h4>
+                                <p><a href="https://github.com/OmarTarek186/SQL-Tasks.git" target="_blank">SQL Tasks</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- Tableau Projects Category -->
+            <div class="project-category">
+                <h3 class="category-title">Tableau Projects</h3>
+                <div class="projects-gallery">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Dashboard 9.jpg" alt="Sales Performance Dashboard">
+                        </div>
+                        <div class="project-content">
+                            <h3>Sales Performance Dashboard</h3>
+                            <p class="project-description">
+                                Interactive Tableau dashboard designed to visualize and analyze sales performance across different product categories, customer locations, and order types. The report consolidates key sales metrics such as total revenue, quantity sold, and yearly trends to provide a comprehensive view of business growth and market distribution. It helps management identify top-performing products, high-revenue regions, and key factors driving sales performance, supporting data-driven business decisions.
+                            </p>
+                            <div class="project-insights">
+                                <h4>Key Insights:</h4>
+                                <p>
+                                    Achieved total sales of 6.89M with 55K total orders across multiple regions.
+                                    Drones and Robot Kits recorded the highest sales among all product categories.
+                                    Sales peaked in 2018, showing strong growth compared to previous years.
+                                    Algeria and Iraq were the leading countries in order volume within the MENA region.
+                                    Retail orders slightly exceeded wholesale orders, highlighting strong consumer demand.
+                                    Product and regional visualizations revealed key opportunities for sales optimization and inventory planning.
+                                </p>
+                            </div>
+                            <!-- <div class="integration-highlight">
+                                <h4>Repository Link:</h4>
+                                <p><a href="https://github.com/Mo-Abdelmoneim/Project_Nti/tree/00a4f05285ac969da1fa7ac253283f3d12e7da" target="_blank">Student Analysis</a></p>
+                            </div> -->
                         </div>
                     </div>
                 </div>
+            </div> 
 
+            <!-- Excel Projects Category -->
+            <div class="project-category">
+                <h3 class="category-title">Excel Projects</h3>
+                <div class="projects-gallery">
+                    
+                    <!-- Project 3: Customer Behavior Analysis -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Dashboard 3.jpg" alt="Customer Behavior Analysis Dashboard">
+                        </div>
+                        <div class="project-content">
+                            <h3>Customer Behavior Analysis</h3>
+                            <p class="project-description">
+                                In-depth analysis of customer purchasing patterns using Excel and advanced formulas for comprehensive customer relationship management. This interactive system tracks customer demographics, order patterns, shipping performance, and geographic distribution across multiple regions. Features dynamic filtering by year and month, automated KPI calculations, and visual analytics including charts and geographic breakdowns for strategic business decision-making.
+                            </p>
+                            <div class="project-insights" style="margin-top: 70px;">
+                                <h4>Key Insights:</h4>
+                                <p>Analyzed 792 customers generating 4,117 orders with 4-day average shipping time, identified Angie Massengill as VIP customer through advanced segmentation analysis. Discovered seasonal ordering patterns with peak activity in months 8-11 (470-486 orders), achieved balanced international customer distribution led by France (568 customers) and Germany (505 customers), and maintained strong regional presence across Central, North, and South territories resulting in optimized logistics.</p>
+                            </div>
+                            <div class="integration-highlight">
+                                <h4>Repository Link:</h4>
+                                <p><a href="https://github.com/OmarTarek186/Customer-Analysis-Using-Excel.git" target="_blank">Customer Behavior Analysis</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Sales Analytics Dashboard -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Dashboard 4.jpg" alt="Sales Analytics Dashboard">
+                        </div>
+                        <div class="project-content">
+                            <h3>Sales Analytics Dashboard</h3>
+                            <p class="project-description">
+                                Advanced Sales Performance Analytics Dashboard developed using Power BI featuring comprehensive business intelligence capabilities. This interactive dashboard provides real-time insights into sales performance, profitability analysis, and product category trends across multiple dimensions. The system integrates advanced DAX calculations, dynamic filtering by year and category, and sophisticated visualizations including KPI cards, bar charts, combination charts, and pie charts for comprehensive sales analytics and strategic decision-making.
+                            </p>
+                            <div class="project-insights">
+                                <h4>Key Insights:</h4>
+                                <p>Generated $470,532.5 in total sales with 13.10% overall margin, achieving 24% profit growth despite 3% sales decline through strategic cost management (6% reduction). Identified Technology as top performer with 21% margin while revealing critical Furniture category issues at 2% margin with multiple products showing negative margins from -150% to -165%. Discovered high-potential sub-categories including Labels (45%) and Paper (43%) margins, and maintained exceptional customer satisfaction with minimal return rates.</p>
+                            </div>
+                            <div class="integration-highlight">
+                                <h4>Repository Link:</h4>
+                                <p><a href="https://github.com/OmarTarek186/Superstore-Analysis-Using-Excel.git" target="_blank">Sales Analytics Dashboard</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Python Projects Category -->
+            <div class="project-category">
+                <h3 class="category-title">Python Projects</h3>
+                <div class="projects-gallery">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Dashboard 8.jpg" alt="Student Analysis">
+                        </div>
+                        <div class="project-content">
+                            <h3>Student Analysis</h3>
+                            <p class="project-description">
+                                Interactive Power BI dashboard designed to analyze and monitor student academic performance across multiple subjects and semesters. The dashboard consolidates student records, attendance, exam results, and demographic details to identify performance trends and areas for improvement. It supports academic supervisors and educators in making data-driven decisions to enhance student engagement, optimize learning outcomes, and track institutional performance metrics.
+                                My role: Responsible for the data cleaning & preprocessing stage using Python (Pandas, NumPy), which included handling missing values, standardizing formats, feature engineering, and preparing the dataset for reliable analysis and visualization in Power BI.
+                            </p>
+                            <div class="project-insights">
+                                <h4>Key Insights:</h4>
+                                <p>
+                                    Analyzed student grades across various subjects to identify top-performing and at-risk students.
+                                    Discovered a strong correlation between attendance rate and academic performance.
+                                    Highlighted performance gaps across departments, gender, and study levels.
+                                    Enabled early identification of students requiring academic intervention through predictive trends.
+                                    Provided insights for improving curriculum planning and academic advising strategies.
+                                    Note on data work: Cleaned and validated the dataset programmatically in Python to ensure accuracy of the insights and reliability of downstream visualizations.
+                                </p>
+                            </div>
+                            <div class="integration-highlight">
+                                <h4>Repository Link:</h4>
+                                <p><a href="https://github.com/Mo-Abdelmoneim/Project_Nti/tree/00a4f05285ac969da1fa7ac253283f3d12e7da" target="_blank">Student Analysis</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Dashboard 6.jpg" alt="Uber Data Analysis">
+                        </div>
+                        <div class="project-content">
+                            <h3>Uber Data Analysis</h3>
+                            <p class="project-description">
+                                This project focuses on analyzing real-world Uber trip data using Python to uncover mobility trends, peak ride times, and demand patterns across different city zones. Through data preprocessing, exploratory data analysis (EDA), and advanced visualization techniques, the dashboard provides actionable insights to support data-driven operational and strategic decisions in ride-hailing services.
+                                The analysis highlights customer behavior patterns, seasonal ride fluctuations, and high-demand locations — enabling improved resource allocation and better forecasting models.
+                            </p>
+                            <div class="project-insights" style="margin-top: 100px;">
+                                <h4>Key Insights:</h4>
+                                <p>
+                                    Analyzed thousands of Uber rides to detect activity peaks and usage patterns across time and geography.
+                                    Identified the busiest days and hours, enabling optimized driver scheduling and surge pricing strategies.
+                                    Detected location hotspots and high-demand pickup zones, supporting improved resource placement.
+                                    Observed seasonal and weather-influenced demand variations, valuable for operational planning.
+                                    Highlighted trip frequency trends to understand user behavior and service utilization patterns.
+                                </p>
+                            </div>
+                            <div class="integration-highlight">
+                                <h4>Repository Link:</h4>
+                                <p><a href="https://github.com/OmarTarek186/Uber-Data-Analysis-project-Using-python" target="_blank">Uber Data Analysis</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-    </div>
-</section>
-
-<!-- ================= FOOTER ================= -->
-<footer id="contact">
-    <div class="container">
-        <div class="footer-grid">
-            <div>
-                <div class="footer-brand"> <!-- First name --> <span> <!-- Last name --> </span></div>
-                <p> <!-- Slogan --> </p>
-            </div>
-            <div class="footer-links">
-                <a href="mailto:"><i class="bi bi-envelope-fill"></i> </a>
-                <a href="tel:"><i class="bi bi-telephone-fill"></i> </a>
-                <a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i> LinkedIn Profile</a>
-            </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Omar Tarek AbdEl-Moneam. All rights reserved.</p>
         </div>
-        <hr>
-        <p class="footer-note">© <span id="year"></span> Omar Tarek AbdEl-Moneam. All rights reserved.</p>
-    </div>
-</footer>
+    </footer>
 
-<button id="backToTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
